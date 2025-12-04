@@ -1,0 +1,21 @@
+{
+  "name": "user_profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "user_profile.js",
+  "scripts": {
+    "start": "node user_profile.js",
+    "test": "mocha ./tests --recursive --timeout 15000 --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "2.2.0",
+    "express": "5.1.0",
+    "mocha": "11.7.4",
+    "mongoose": "8.19.2",
+    "supertest": "7.1.4"
+  },
+  "type": "module"
+}
